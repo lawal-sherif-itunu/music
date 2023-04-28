@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+main {    
+    min-height: 100vh;
+}
+
+main.splash-screen {
+    /* background-color: #9E9898;
+    background: #6700B0;
+    background: #FFFFFF;
+    background: #000000;
+    background: #6D6767; */
+    background: linear-gradient(180deg, #0E0015 19.43%, #310248 47.66%, #0E0015 77.25%);
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(184.51deg, #660099 13.94%, rgba(255, 102, 0, 0.72) 41.2%, #000000 72.27%); */
+}
+
+main.splash-screen a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+main.onboarding-screen {
+    background: rgba(37, 2, 54, 0.8);
+    background-image: url("/images/digital-audio\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: darken;
+    padding: 3rem;
+}
+
+main.onboarding-screen h1 {
+    display: block;
+    margin-inline: auto;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: 100%;
+    /* width: 100%; */
+    margin-inline: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+main.onboarding-screen div {
+    width: 100%;
+}
+
+main.onboarding-screen a {
+    /* background: linear-gradient(180deg, #0E0015 19.43%, #310248 47.66%, #0E0015 77.25%); */
+    background-color: #6700B0;
+    border-radius: 20px;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    margin-top: 100%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+main.onboarding-screen-two, .sign-up-screen, .sign-in-screen {
+    background: linear-gradient(180deg, #0E0015 19.43%, #310248 47.66%, #0E0015 77.25%);
+    padding: 3rem;
+}
+
+main.onboarding-screen-two img, .sign-up-screen img, .sign-in-screen img {
+    width: 110px;
+    margin-inline: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+main.onboarding-screen-two h2 {
+    height: 28px;
+    width: 284px;
+    left: 53px;
+    top: 160px;
+    border-radius: nullpx;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+main.onboarding-screen-two p {
+    height: 19px;
+    width: 284px;
+    left: 54px;
+    top: 207px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin-bottom: 4rem;
+}
+
+main.onboarding-screen-two h2, main.onboarding-screen-two p {
+    color: #fff;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: center;
+}
+
+main.onboarding-screen-two .songs-types-circle {
+    height: 66px;
+    width: 72px;
+    left: 72px;
+    top: 296px;
+    border-radius: 50%;
+    background-color: #6700B0;
+}
+
+.songs-types-circle {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+}
+
+.songs-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.nav-submit .next-button {
+    display: block;
+}
+
+.nav-submit a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.nav-submit a:active {
+    border: 2px #fff solid;
+}
+
+.nav-submit a.next-button {
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: #6700B0;
+    margin-bottom: 2rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.sign-up-screen form input, .sign-in-screen form input {
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.sign-up-screen form label, .sign-in-screen form label {
+    color: #fff;
+}
+
+.password-cotainer {
+    position: relative;
+}
+
+.sign-up-screen form img.eye, .sign-in-screen form img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 24px;
+    margin-right: 16px;
+}
+
+.sign-up-screen form button, a.signin-button, .sign-in-screen form button {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    color: #fff;
+    background-color: #6700B0;
+    border: none;
+}
+
+.sign-up-screen p, .sign-up-screen p a, .sign-in-screen p, .sign-in-screen p a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sign-up-screen h3, .sign-in-screen h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.signup-options {
+    width: 100%;
+    padding: 1rem;
+}
+
+.signup-options img {
+    height: 27px;
+    width: 27px;
+    top: 50%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+a.signup-links {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #660099;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    text-align: center;
+    background-position: 24px;
+}
+
+.google-link {
+    background-image: url("/images/icons8-google.svg");
+}
+
+.facebook-link {
+    background-image: url("/images/facebook (1).svg");
+}
+
+.apple-link {
+    background-image: url("/images/apple.svg");
+}
+
+.sign-in-screen form {
+    margin-top: 4rem;
+}
+
+form a.forget {
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
